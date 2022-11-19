@@ -16,7 +16,6 @@ db.init_app(app)
 
 @app.route("/")
 def main_page():
-    print("im here\n")
     return render_template('index.html')
 
 @app.route("/about.html", methods=['GET', 'POST'])
