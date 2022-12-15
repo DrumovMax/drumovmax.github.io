@@ -1,1 +1,4 @@
 /instance/guestbook.db
+__pycache__
+/venv
+.idea
